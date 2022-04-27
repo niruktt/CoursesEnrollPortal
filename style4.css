@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  
+ 
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif; 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: black;
+    border: none;
+    text-decoration: none;
+    background-color: none;
+    border-radius: 100%;
+    
+}
+
+.fixed-nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999; 
+    width: 100%;
+    height: 9%;
+    background-color: whitesmoke;
+    }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    height: 5%;
+    
+}
+.logo{
+    
+    width: 9%;
+}
+.nav_links{
+    list-style: none;
+    
+
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+
+}
+.nav_links li a:hover{
+    color: darkblue;
+}
+button{
+    padding: 9px 25px;
+   
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+button:hover{
+    background-color: none;
+}
+.header{
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+/* Css for join-us */
+.join-us{
+    background-image: url(img/join_cover.png);
+  /* background-position: center; */
+  background-size: cover;
+  margin-top: 4%;
+}
+.column6{
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  .row6:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column6{
+    margin-top: 10%;
+    border: none; 
+    width: 40%;
+    margin-right: 9%;
+    margin-bottom: 2px;
+      
+  }
+  .form{
+      margin-left: 30%;
+      margin-top: 35px;
+      margin-bottom: 5%;
+    
+      
+  }
+  .label{
+      padding: 10px 12px;
+      font-size: 25px;
+      border-radius: none;
+      text-align: center;
+      font-family: 'Rubik Beastly', cursive;
+      
+  }
+  .input{
+      border: none;
+      border-bottom: 2px solid black;
+      padding: 10px 18px;
+      width: 80%;
+      text-align: left;
+      font-size: 18px;
+      font-family: 'Supermercado One', cursive;
+    }
+  .file1{
+      padding: 12px;
+      background-color: slateblue;
+      width: 80%;
+      border-radius: 8px ;
+      color: white;
+  }
+  .send{
+      padding: 12px;
+      width: 80%;
+      background-color: royalblue;
+      font-size: 20px;
+      color: white;
+      font-family: 'Bebas Neue', cursive;
+      
+  }
+  .send:hover{
+      background-color: orange;
+      cursor:pointer;
+
+  }
+  .button{
+      padding: 12px 18px;
+      width: 80%;
+      margin-top: 5px;
+      background-color: violet;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 20px;
+      color: white;
+
+  }
+  .button:hover{
+      background-color: orangered;
+      cursor:pointer;
+
+  }
+
+
+
+
+
+
+
+/*footer */
+.footer1{
+    background-color: #24262b;
+    width:100%;
+    /* bottom: 0; */
+    position: relative;
+    text-align: center; 
+    
+      
+}
+.container1{
+    max-width: 1170px;
+    margin-left: 12%;
+    /* margin: auto; */
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col1{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+.footer-col1 img{
+    height: 98%;
+    width: 68%;
+}
+.footer-col1 h5{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px; 
+    font-weight: 500;
+    position: relative;
+}
+.footer-col1 h5::before{
+    content: '';
+    position: absolute;
+    left: 105px;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col1 ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col1 ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col1 ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col1 .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    background-color: white;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: blue;
+    transition: all 0.5s ease;
+
+}
+
+.footer-col1 .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}

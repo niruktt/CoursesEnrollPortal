@@ -1,0 +1,87 @@
+.contact{
+  background-image: url(img/Contact_us.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 4%;
+}
+.column10{
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row10:after {
+  content: "";
+  display: table;
+  clear: 
+  both;
+}
+.row10{
+  margin-left: 45%;
+}
+.ct{
+  margin-bottom: 7px;
+}
+.text{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid black;
+  height:7%;
+  font-family: 'Supermercado One', cursive;
+  font-size: 20px;
+  
+}
+.textarea{
+  
+  width: 100%;
+  height: 20%;
+  border-radius: 5px;
+  font-family: 'Supermercado One', cursive;
+font-size: 20px;
+border: 3px solid black;
+}
+.submit{
+  margin-top: 5px;
+  padding: 12px;
+      width: 100%;
+      background-color: royalblue;
+      font-size: 20px;
+      color: white;
+      font-family: 'Bebas Neue', cursive;
+}
+.submit:hover{
+  background-color: orange;
+  cursor:pointer;
+
+}
+
+.button{
+  padding: 12px;
+      width: 100%;
+      margin-top: 5px;
+      background-color: violet;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 20px;
+      color: white;
+
+}
+.button:hover{
+  background-color: orangered;
+  cursor:pointer;
+}
+.label{
+  font-size: 30px;
+  font-family: 'Rubik Beastly', cursive;
+  color: black;
+  margin-bottom: 2px;
+  
+}
+.ct img{
+  border-radius: 5px;
+  margin-left: 20%;
+  height: 24%;
+  margin-top: 10%;
+}
